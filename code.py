@@ -3,6 +3,11 @@
 
 L = [ for i in range(10)]
 
+L = [(i*(i+1))/2 for i in range(10)]
+print L
+
+#output [0, 1, 3, 6, 10, 15, 21, 28, 36, 45]
+
 # Create a function to test if a number is prime
 def is_prime(n):
     """
