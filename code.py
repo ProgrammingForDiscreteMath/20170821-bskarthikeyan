@@ -18,6 +18,20 @@ def is_prime(n):
 # is_prime(2033) == False
 # is_prime(2039) == True
 
+def is_prime(n):
+    x = True 
+    for i in (2, n):
+            while x:
+               if n%i == 0:
+                   x = False
+               else:
+                   x = True
+    if x: 
+        print "prime"
+    else:
+        print "not a prime"
+
+
 # Create a function which returns a list of the first ten prime numbers
 # greater than or equal to n
 
