@@ -1,6 +1,6 @@
 # Create a list with the first ten triangular numbers
 # (see https://oeis.org/A000217)
-
+#minor edit
 L = [ for i in range(10)]
 
 L = [(i*(i+1))/2 for i in range(10)]
